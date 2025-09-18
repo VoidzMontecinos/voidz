@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMonte</title>
+  <link rel="stylesheet" href="man.css">
+  <link rel="icon" type="image/png" href="pochi logo.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>  
+  <nav class="navbar">
+    <div class="logo">
+        <img src="pochi logo.jpeg" alt="Mi Logo">
+    </div>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+    <ul class="nav-links">
+      <li><a href="#inicio">INICIO</a></li>
+      <li><a href="#galeria">GALERIA</a></li>
+      <li><a href="#servicios">SERVICIOS</a></li>
+      <li><a href="#contactos">CONTACTOS</a></li>
+    </ul>
+  </nav>
+  <section id="inicio" class="padre">
+    <div class="hijo">
+      <h2>Pochita</h2>
+      <img src="pochita.jpeg" alt="Pochita">
+      <p>Pochita (ポチタ, Pochita) es el Demonio Motosierra (チェンソーの悪魔, Chensō no akuma) que encarna el miedo a las motosierras. Era el original Hombre Motosierra (チェンソーマン, Chensō Man) antes de convertirse en el corazón de Denji.</p>
+    </div>
+    <div class="hijo">
+      <h2>Denji</h2>
+      <img src="fotito (2).jpeg" alt="Denji">
+      <p>Denji (デンジ, Denji) es el protagonista de Chainsaw Man. Cuando era un niño, heredó las deudas que su padre le debía a la Yakuza; luego de conocer a Pochita, se convirtió en un cazador de demonios para la Yakuza en un intento de saldar la deuda.</p>
+    </div>
+    <div class="hijo">
+      <h2>Reze</h2>
+      <img src="reze.jpeg" alt="Reze">
+      <p>Reze (レゼ, Reze), también conocida como Lady Reze es una híbrida que se fusiono con el Demonio Bomba (爆ボ弾ムの悪あく魔ま, Bomu no akuma). Ella es aliada del Demonio Pistola y de la Unión Soviética. Es la antagonista principal del Arco de Bomb Girl..</p>
+    </div>
+  </section>
+  <section id="galeria" class="row galeria">
+    <div class="column">
+      <img src="galeria (1).jpeg" alt="">
+      <img src="galeria (2).jpeg" alt="">
+      <img src="galeria (3).jpeg" alt="">
+      <img src="galeria (4).jpeg" alt="">
+      <img src="galeria (5).jpeg" alt="">
+    </div>
+    <div class="column">
+      <img src="galeria (6).jpeg" alt="">
+      <img src="galeria (7).jpeg" alt="">
+      <img src="galeria (8).jpeg" alt="">
+      <img src="galeria (9).jpeg" alt="">
+      <img src="galeria (10).jpeg" alt="">
+    </div>
+    <div class="column">
+      <img src="galeria (11).jpeg" alt="">
+      <img src="galeria (12).jpeg" alt="">
+      <img src="galeria (13).jpeg" alt="">
+      <img src="galeria (14).jpeg" alt="">
+      <img src="galeria (1).jpeg" alt="">
+    </div>
+    <div class="column">
+      <img src="galeria (3).jpeg" alt="">
+      <img src="galeria (5).jpeg" alt="">
+      <img src="galeria (7).jpeg" alt="">
+      <img src="pochita tri.jpeg" alt="">
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Programas</h2>
+    <div class="programas-container">
+      <div class="carta">
+        <h3>PROGRAMACION PYTHON</h3>
+        <p>🚀 Aprende Python desde cero: lógica, automatización, desarrollo web e inteligencia artificial en solo 4 semanas 💻📚 — ¡Inscríbete ahora y programa tu futuro!</p>
+        <button>+INFO</button>
+      </div>
+      <div class="carta">
+        <h3>PROGRAMADOR DE PAGINAS WEB</h3>
+        <p>🌐 Diseñamos tu página web moderna, responsiva y profesional para que tu negocio esté online en poco tiempo 🚀 — ¡Lleva tu marca al siguiente nivel hoy mismo!</p>
+        <button>+INFO</button>
+      </div>
+      <div class="carta">
+        <h3>MARKETING E INVERSION ONLINE</h3>
+        <p>📈 Impulsa tu negocio con estrategias de marketing digital y oportunidades de inversión online para crecer más rápido y seguro 🚀.</p>
+        <button>+INFO</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contactos">
+    <p>Síguenos en nuestras redes</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/juan.montecinos.12382923" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/voidzdavid?igsh=ajd5M2UwM3FmdzVz" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/591XXXXXXXXX" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p>&copy; 2025 VMonte . Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script para cerrar menú al hacer clic -->
+  <script>
+    document.querySelectorAll(".nav-links a").forEach(link => {
+      link.addEventListener("click", () => {
+        document.getElementById("menu-toggle").checked = false;
+      });
+    });
+  </script>
+</body>
+</html>
